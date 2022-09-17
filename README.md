@@ -6,7 +6,7 @@ Shenzhen technology university UGV&UAV exploration in uncertain environment
 # 仓库使用说明
 本仓库属于深圳技术大学UGV&UAV探索项目，参考了深圳朝闻道科技有限公司的开源库与西北工业大学飞行传感实验室的开源库。所有开发者均可使用，欢迎提出任何建议。
 # git
-git是一个重要的工具，开发人员应学会使用git进行文件下载与上传，使用教程请参考[git使用教程](https://www.guyuehome.com/14906)。
+git是一个重要的工具，开发人员应学会使用git进行文件下载与上传，使用教程请参考[git使用教程](https://www.guyuehome.com/14906)。如果要git push，请参考这篇[教程](https://chinese.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/)
 ## 入门
 机器人包括无人机以及无人车在未知环境探索的主要难点是避障与路径规划，如果从零开始那么要求开发者有极高的科学素养，这对于大部分开发者来说几乎是不可能的。所幸ROS已经将各个开发模块集成起来，这无疑减轻了开发的负担。ROS是Willow Garage公司创建的一个机器人开源项目库，全程Robot Operation System，关于Willow Garage的传奇故事感兴趣的可以参考下面的博[willow garage](https://www.guyuehome.com/7521)。
 ## 初级教程
