@@ -1,4 +1,4 @@
-Shenzhen technology university UGV&UAV exploration in uncertain environment 
+Shenzhen Technology University UGV&UAV exploration in uncertain environment 
 ===========================================================================
 `This is a repository for students and anyother developers who interested in UGV&UAV exploration.`
 
