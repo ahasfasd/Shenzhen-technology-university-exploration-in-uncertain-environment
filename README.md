@@ -8,6 +8,8 @@ SZTU UGV&UAV exploration in uncertain environment
 本仓库属于深圳技术大学UGV&UAV探索项目，参考了深圳朝闻道科技有限公司的开源库与西北工业大学飞行传感实验室的开源库。所有开发者均可使用，欢迎提出任何建议。
 # git
 git是一个重要的工具，开发人员应学会使用git进行文件下载与上传，使用教程请参考[git使用教程](https://www.guyuehome.com/14906)。如果要git push，请参考这篇[教程](https://chinese.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/)
+## ubuntu安装与ROS环境配置
+一般情况下，我建议初学者都应该配置一下环境，但是由于网络问题，安装过程可能并不会那么顺利，对于详细的安装教程请点击[这里](./other/ros_install.md)进行查看。
 ## 入门
 机器人包括无人机以及无人车在未知环境探索的主要难点是避障与路径规划，如果从零开始那么要求开发者有极高的科学素养，这对于大部分开发者来说几乎是不可能的。所幸ROS已经将各个开发模块集成起来，这无疑减轻了开发的负担。ROS是Willow Garage公司创建的一个机器人开源项目库，全程Robot Operation System，关于Willow Garage的传奇故事感兴趣的可以参考下面的博[willow garage](https://www.guyuehome.com/7521)。
 ## 初级教程
@@ -54,7 +56,11 @@ Includes the advance research of UGV&UAV motion planing and any other relative w
 
 
 ### 其他小问题
-### 关于翻墙
+#### cmake编译问题
+cmake是常用的c语言编译工具,遵循 "write once, run everywhere", 一般情况下,下载完ros之后cmake都会自动安装,关于cmake的使用教程可以参考[这里](https://blog.csdn.net/yk150915/article/details/78611019) .
+
+一般情况下安装好ros之后cmake都会自动安装,但是不排除有些小bug,即项目编译后会出现cmake编译错误之类的提示.这里建议不要去死磕报错原因,简单的方法是直接升级cmake,升级的方法可以参考这篇[教程](https://blog.csdn.net/qq_27350133/article/details/121994229)
+#### 关于翻墙
 翻墙是国内ROS学习以及开发所要面临的一个重大难题，关于翻墙的历史以及相对应的内容可以点击[这里](./other/defence%20wall.md)
 
 
