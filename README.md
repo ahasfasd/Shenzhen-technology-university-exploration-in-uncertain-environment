@@ -33,7 +33,7 @@ moveit!是机器人motion planing集成库，同样的也是已经封装好了�
 该部分是项目组研究的重点内容，而且已经取得阶段性成就。
 ### Reinforcement learning 基础
 强化学习是机器学习的一重要研究内容，它和有监督学习、无监督学习构成了机器学习的主要内容，三者的关系如下图所示
-![img.png](img.png)
+![img.png](image/img.png)
 关于强化学习的基础内容，初学者可以参考一下的文章及视频
 1.强化学习入门[李宏毅强化学习](https://www.bilibili.com/video/BV1Cq4y1j7Lr/)
 2.[强化学习基础笔记](https://juejin.cn/post/7070019156103397384)
@@ -46,13 +46,25 @@ moveit!是机器人motion planing集成库，同样的也是已经封装好了�
 路径规划和路径探索是本小结的主要内容，在该领域，浙江大学的FAST——Lab已经取得的瞩目的成就
 [ZJU_fast_lab](https://www.bilibili.com/video/BV1eq4y1F7EJ/),该团队设计的无人机算法已经能够实现探索与规划相结合。
 [实验室官网](http://zju-fast.com/)
-![img_1.png](img_1.png)
+![img_1.png](image/img_1.png)
 
 这里附上浙大的几个开源代码
 [无人机仿真](https://github.com/ZJU-FAST-Lab/ego-planner)
 
+## 本项目组取得的阶段性成就
+学生王子和与梁世博在动态环境下的机械臂运动规划领域下取得了阶段性的成就，该学生在pybullet的仿真环境下实现了机械臂的运动，包括运用3d包围盒的方式将障碍物自动识别出来，实现了基于强化学习方法的机械臂路径规划算法。
+
+代码可以参考这里[二维](./DDPG8_2obs) 和[三维](./DDPG8_3)
+
+![img_2.png](image/img_2.png)
+图中表示的是在pybullet仿真环境下原图、深度图、框图和过程。
+![img_3.png](image/img_3.png)
+训练拟合效果
+
+
 # Research 
-Includes the advance research of UGV&UAV motion planing and any other relative works. Please browse [here](https://github.com/ahasfasd/Shenzhen-technology-university-exploration-in-uncertain-environment/tree/main/research)
+
+Includes the advance research of UGV&UAV motion planing and any other relative works. Please browse [here](./research)
 
 
 ### 其他小问题
